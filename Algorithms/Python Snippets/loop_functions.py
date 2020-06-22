@@ -26,5 +26,3 @@ import operator
 ix, val = max(enumerate(arr), key=operator.itemgetter(1))
 print(ix, val)
 
-
-
