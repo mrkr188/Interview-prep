@@ -7,6 +7,7 @@ a = [True, True, True, True, False, False, False, False, False]
 
 # pattern 1
 # find the first False value - ans = 4
+# this is like finding the left most point where return value from function is true
 # used in 278. First Bad Version - https://leetcode.com/problems/first-bad-version/
 l, r = 0, len(a)-1
 while l < r:
@@ -22,6 +23,7 @@ print(l)
 
 # pattern 2
 # find last True value - ans = 3
+# this is like finding the right most point where return value from function is true
 # used in 1062. Longest Repeating Substring - https://leetcode.com/problems/longest-repeating-substring/
 l, r = 0, len(a)-1
 while l <= r:
