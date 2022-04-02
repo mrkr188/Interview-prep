@@ -12,7 +12,7 @@ a = [True, True, True, True, False, False, False, False, False]
 l,r = 1,n
 while l <= r:
     m = l + (r-l)//2
-    if isBadVersion(m):
+    if a[m] == False:
         r = m-1
     else:
         l = m+1
